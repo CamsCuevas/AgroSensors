@@ -1,0 +1,233 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* tipografías */
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+/* navbar */
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #C7FFE2;
+    color: #005400;
+}
+
+header ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    font-size: 16px;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 25px;
+}
+
+.navbar:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+#logo{
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+/* introducción que explica qué es matroot */
+
+#introducción{
+    padding-top: 3%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 3%;
+}
+
+#texto-intro{
+    font-size: 21px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.i{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width:100%;
+}
+
+.conócenos{
+    color: #666666
+}
+
+/* quote, es parte de la intro pero por funcionalidad la hice como otra sección */
+
+#quote{
+    background-color: #e6e7e8;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+#texto-quote{
+    font-size: 21px;
+}
+
+#comillasdespues{
+    transform: rotate(180deg);
+}
+
+#nombre{
+    font-size: 18px;
+}
+
+.bi-quote{
+    color: #005400;
+    font-size: 70px;
+}
+
+/* lo que hacemos, o sea, conjuntos de actividades */
+
+#actividades{
+    padding-top: 3%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 3%;
+}
+
+#texto-actividades{
+    font-size: 18px;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    text-align: center;
+}
+
+#ventajas{
+    font-size: 18px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width:100%;
+}
+
+.hacemos{
+    color: #666666;
+}
+
+#imagenes{
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    padding: 5vh;
+}
+
+#receptor{
+    width: 40vw;
+    border-radius: 20px;
+}
+
+#transmisor{
+    width: 35vw;
+    border-radius: 20px;
+}
+
+.sub{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    margin: 6vh;
+}
